@@ -9,26 +9,3 @@ full:copilotprodattachments.blob.core.windows.net
 # Ads/tracking
 full:copilot-telemetry-service.githubusercontent.com @ads
 full:copilot-telemetry.githubusercontent.com @ads
-
-# BEGIN OFFICIAL CIDR
-# Source: https://api.github.com/meta
-# Synced: 2026-07-17
-# Source-SHA256: 4FDD0CE1A00E47F8DB427223F4AFB51FFB30DA3CA30EE51DB43442B815CF7DC3
-ip:13.107.5.93/32
-ip:138.91.182.224/32
-ip:140.82.112.0/20
-ip:143.55.64.0/20
-ip:185.199.108.0/22
-ip:192.30.252.0/22
-ip:20.199.39.224/32
-ip:20.250.119.64/32
-ip:20.85.130.105/32
-ip:4.225.11.192/32
-ip:4.228.31.153/32
-ip:4.237.22.41/32
-ip:4.249.131.160/32
-ip:52.140.63.241/32
-ip:52.175.140.176/32
-ip6:2606:50c0::/32
-ip6:2a0a:a440::/29
-# END OFFICIAL CIDR
