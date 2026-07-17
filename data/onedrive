@@ -1,0 +1,30 @@
+1drv.com
+1drv.ms
+livefilestore.com
+onedrive.co
+onedrive.co.uk
+onedrive.com
+onedrive.eu
+onedrive.net
+onedrive.org
+
+onedrive.live.com
+storage.live.com
+
+# BEGIN METACUBEX ONEDRIVE
+# Source: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/OneDrive
+domain:1drv.com
+domain:livefilestore.com
+domain:microsoftpersonalcontent.com
+domain:oneclient.sfx.ms
+domain:onedrive.com
+domain:onedrive.live.com
+domain:photos.live.com
+domain:sharepoint.cn
+domain:sharepoint.com
+domain:sharepointonline.com
+domain:skydrive.wns.windows.com
+domain:spoprod-a.akamaihd.net
+domain:storage.live.com
+domain:storage.msn.com
+# END METACUBEX ONEDRIVE

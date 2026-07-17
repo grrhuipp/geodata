@@ -1,0 +1,37 @@
+fastly-edge.com
+fastly-terrarium.com
+fastly.com
+fastly.io
+fastly.net
+fastlylabs.com
+fastlylb.net
+
+# Video.js CDN
+zencdn.net
+
+# BEGIN OFFICIAL CIDR
+# Source: https://api.fastly.com/public-ip-list
+# Synced: 2026-07-17
+# Source-SHA256: D0FA4ABE04CDED896CF1A1D1A1C16CE2861EA4FEB837EBD045A89C7B06A15AB5
+ip:103.244.50.0/24
+ip:103.245.222.0/23
+ip:103.245.224.0/24
+ip:104.156.80.0/20
+ip:140.248.128.0/17
+ip:140.248.64.0/18
+ip:146.75.0.0/17
+ip:151.101.0.0/16
+ip:157.52.64.0/18
+ip:167.82.0.0/17
+ip:167.82.128.0/20
+ip:167.82.160.0/20
+ip:167.82.224.0/20
+ip:172.111.64.0/18
+ip:185.31.16.0/22
+ip:199.232.0.0/16
+ip:199.27.72.0/21
+ip:23.235.32.0/20
+ip:43.249.72.0/22
+ip6:2a04:4e40::/32
+ip6:2a04:4e42::/32
+# END OFFICIAL CIDR
