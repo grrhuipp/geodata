@@ -1,8 +1,116 @@
 # This list contains services related to entertainment & games & music & podcasts & videos outside China mainland.
 
 include:category-acg
-include:category-entertainment-ru
-include:category-games-!cn
+# Merged from category-entertainment-ru; standalone regional category removed.
+# CDNvideo is a leading CDN provider in Russia and the CIS
+cdnvideo.ru
+cdnvideohub.com
+trbcdn.net
+
+# Information about films and series
+kinorium.com
+
+# Streaming services for watching TV series and movies
+include:kinopoisk
+include:okko
+include:wink
+24h.tv
+amediateka.ru
+beeline.tv
+ivi.ru
+premier.one
+smotreshka.tv
+start.ru
+tvigle.ru
+viju.ru
+
+# Music
+promodj.com # Electronic music and DJ community platform
+
+# Video hosting
+include:rutube
+# Merged from category-games-!cn; standalone regional category removed.
+include:blizzard
+include:bluearchive
+include:bohemia
+include:curseforge
+include:cygames
+include:ea
+include:embark
+include:epicgames
+include:escapefromtarkov
+include:faceit
+include:gaijin
+include:gamesplanet
+include:garena
+include:gog
+include:hoyoverse
+include:humblebundle
+# Dead include:illusion
+include:itchio
+include:konami
+include:lowiro
+include:modrinth
+include:nexon
+include:nikke
+include:nintendo
+include:op
+include:osu
+include:pandanet
+include:pinkcore
+include:playstation
+include:projectsekai
+include:pubg
+include:purikonejp
+include:riot
+include:roblox
+include:snk
+include:steam
+include:steaminventoryhelper
+include:steamunlocked
+include:supercell
+include:take-two
+include:ubisoft
+include:vrchat
+include:wargaming
+include:wbgames
+include:xbox
+include:ynoproject
+include:yostar
+
+chunkbase.com
+dinopoloclub.com
+dodi-repacks.download
+dodi-repacks.site
+fabricmc.net
+fanatical.com
+ficgs.com
+fitgirl-repacks.site
+game-repack.site
+joinsquad.com
+loverslab.com
+minecraft.wiki
+minecraftforge.net
+mobimon.com.tw
+muvluv-girls-garden.com
+namemc.com
+neoforged.net
+nexus-cdn.com
+nexusmods.com
+noxygames.com
+offworldindustries.com
+offworldindustries.net
+optifine.net
+papermc.io
+planetminecraft.com
+prismlauncher.org
+protondb.com
+quiltmc.org
+rayark.download
+rayark.net
+speedrun.com
+spigotmc.org
+steamdb.info
 include:category-novel
 
 include:7tv

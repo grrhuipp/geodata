@@ -1,4 +1,9 @@
-include:category-ecommerce-ru
+# Merged from category-ecommerce-ru; standalone regional category removed.
+include:avito
+include:flowwow
+include:funpay
+include:ozon
+include:wildberries
 
 include:adidas
 include:airbnb

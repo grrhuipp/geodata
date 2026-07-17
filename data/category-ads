@@ -1,5 +1,12 @@
 # This file contains domains that clearly serving ads
-include:category-ads-ir
+# Merged from the former regional advertising category.
+adivery.com
+adivery.ir
+kaprila.com
+najva.com
+sabavision.com
+tapsell.ir
+yektanet.com
 
 include:acfun @ads
 include:adobe @ads
@@ -11,7 +18,15 @@ include:baidu @ads
 include:bytedance @ads
 include:criteo @ads
 include:carrotquest @ads
-include:category-food-cn @ads
+# Advertising rules formerly selected through the regional food category.
+include:bestore @ads
+include:lkcoffee @ads
+include:mcdonalds @ads
+include:starbucks @ads
+logger.qmai.cn @ads
+tracking.mcdonalds.com.cn @ads
+trackingprd.hwwt8.com @ads
+trackserver.shuxinyc.com @ads
 include:cctv @ads
 include:disney @ads
 include:dmm @ads
