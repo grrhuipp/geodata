@@ -2,7 +2,11 @@
 
 这是一个手工维护的产品、网站及集合规则库。源文件放在 `data/`，由单文件 C++ 编译器 `build.cpp` 直接编码为未压缩的 Protobuf 文件 `geodata.dat`。
 
-GitHub Releases 提供编译完成的 `geodata.dat`。仓库只提交可审查的数据源和 C++ 编译器，避免二进制产物进入 Git 历史。
+`main` 分支直接保存编译完成的 `geodata.dat`，固定下载地址为：
+
+<https://raw.githubusercontent.com/grrhuipp/geodata/main/geodata.dat>
+
+每次同步后在同一路径覆盖并提交新成品，因此使用方不需要随版本修改下载地址。GitHub Releases 同时保留带版本的历史快照。
 
 项目刻意保持简单：只保留一个 `data` 目录、一个 `build.cpp` 和编译产物，不引入 Protobuf、压缩库、脚本运行时或额外源码目录。
 
@@ -221,10 +225,10 @@ message Rule     { Type type = 1; bytes value = 2; uint32 prefix = 3; }
 
 每次完成同步、审计和确定性构建后发布新版本：
 
-1. 提交 `README.md`、`build.cpp` 和 `data/`；
-2. 不提交本地 `build.exe`、`build` 和 `geodata.dat`；
+1. 提交 `README.md`、`build.cpp`、`data/` 和重新生成的 `geodata.dat`；
+2. `geodata.dat` 固定提交到仓库根目录，`build.exe` 和 `build` 仍作为本地构建工具忽略；
 3. 版本号使用 `vYYYY.MM.DD`，同一天再次发布时追加 `.2`、`.3`；
-4. Release 附件上传未压缩的 `geodata.dat`；
+4. Release 附件上传与 `main/geodata.dat` 完全相同的未压缩文件；
 5. Release 说明记录产品数、规则数、字节数、SHA-256 和上游基线。
 
 ## 许可证
