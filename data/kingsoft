@@ -17,3 +17,12 @@ ks-cdn1.com
 ksyun.com
 ksyuncdn.com
 ksyungslb.com
+
+# BEGIN ASN PREFIXES
+# Source: https://stat.ripe.net/data/ris-prefixes/data.json
+# ASN: AS59019
+# RIS snapshot: 2026-07-17T00:00:00
+# Selection: current origin routes covering repeatedly observed domainless application traffic.
+ip:110.43.120.0/22
+ip:120.92.32.0/21
+# END ASN PREFIXES
