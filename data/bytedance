@@ -1,4 +1,12 @@
-include:bytedance-ai-!cn # not serving for cn
+# Merged from former product subfile: bytedance-ai-!cn
+include:dola
+
+# related to doubao
+coze.com @!cn
+
+# related to trae
+marscode.com @!cn
+trae.ai @!cn
 include:doubao
 include:douyin # douyin, huoshan and qishuimusic inside
 include:fqnovel

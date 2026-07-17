@@ -30,7 +30,10 @@ hsbc.com.bh
 hsbc.com.br
 
 ## HSBC CN
-include:hsbc-cn
+# Merged from former product subfile: hsbc-cn
+hsbc.com.cn
+hsbcqh.com.cn
+hsbcinsurance.com.cn
 
 hsbc.com.eg
 hsbc.com.hk
