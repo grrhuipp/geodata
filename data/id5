@@ -1,0 +1,4 @@
+# Source: https://id5.io/
+# ID5 advertising identity service families.
+domain:id5-sync.com @ads
+domain:id5.io @ads

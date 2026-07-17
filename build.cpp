@@ -87,6 +87,12 @@ static std::vector<Rule> polish(std::vector<Rule> rules){
   std::unordered_set<std::string> domains;for(const auto&rule:rules)if(rule.type==Type::domain)domains.insert(rule.value);
   std::vector<Rule> result;result.reserve(rules.size());
   for(auto&rule:rules){if((rule.type!=Type::domain&&rule.type!=Type::full)||!rule.attributes.empty()){result.push_back(std::move(rule));continue;}auto current=rule.type==Type::full?"."+rule.value:rule.value;bool redundant=false;while(true){auto dot=current.find('.');if(dot==std::string::npos)break;current=current.substr(dot+1);if(domains.contains(current)){redundant=true;break;}}if(!redundant)result.push_back(std::move(rule));}
+  std::vector<Rule> non_ip,ip;non_ip.reserve(result.size());ip.reserve(result.size());
+  for(auto&rule:result)((rule.type==Type::ipv4||rule.type==Type::ipv6)?ip:non_ip).push_back(std::move(rule));
+  std::ranges::sort(ip,[](const Rule&a,const Rule&b){auto pa=std::stoi(a.value.substr(a.value.find('/')+1)),pb=std::stoi(b.value.substr(b.value.find('/')+1));return std::tie(a.type,a.attributes,pa,a.value)<std::tie(b.type,b.attributes,pb,b.value);});
+  std::unordered_set<std::string> networks;
+  for(auto&rule:ip){const bool v6=rule.type==Type::ipv6;const auto slash=rule.value.find('/');const int prefix=std::stoi(rule.value.substr(slash+1)),size=v6?16:4;std::array<std::uint8_t,16> bytes{};if(inet_pton(v6?AF_INET6:AF_INET,rule.value.substr(0,slash).c_str(),bytes.data())!=1)throw std::runtime_error("invalid normalized IP");std::string base(1,static_cast<char>(rule.type));for(const auto&attribute:rule.attributes){base.push_back('\0');base+=attribute;}bool covered=false;for(int parent=0;parent<=prefix;++parent){auto masked=bytes;for(int bit=parent;bit<size*8;++bit)masked[bit/8]&=static_cast<std::uint8_t>(~(1u<<(7-bit%8)));auto key=base;key.push_back(static_cast<char>(parent));key.append(reinterpret_cast<const char*>(masked.data()),size);if(networks.contains(key)){covered=true;break;}}if(!covered){auto key=base;key.push_back(static_cast<char>(prefix));key.append(reinterpret_cast<const char*>(bytes.data()),size);networks.insert(std::move(key));non_ip.push_back(std::move(rule));}}
+  result=std::move(non_ip);
   std::ranges::sort(result,[](const Rule&a,const Rule&b){return std::tie(a.type,a.value,a.attributes)<std::tie(b.type,b.value,b.attributes);});return result;
 }
 

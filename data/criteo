@@ -1,0 +1,5 @@
+# Source: https://www.criteo.com/
+# Criteo advertising and creative delivery service families.
+domain:criteo.com @ads
+domain:criteo.net @ads
+domain:creativecdn.com @ads

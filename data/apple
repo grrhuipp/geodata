@@ -935,3 +935,20 @@ api-adservices.apple.com @ads
 iadsdk.apple.com @ads
 iad.apple.com @ads
 qwapi.com @ads
+
+# BEGIN ASN PREFIXES
+# Source: https://stat.ripe.net/data/ris-prefixes/data.json
+# ASNs: AS6185, AS714
+# RIS snapshot: 2026-07-17T00:00:00
+ip:17.0.0.0/8
+ip:57.102.0.0/16
+ip:57.103.0.0/16
+ip:139.178.128.0/18
+ip:144.178.0.0/18
+ip:65.199.22.0/23
+ip6:2403:300::/32
+ip6:2620:149::/32
+ip6:2a01:b740::/32
+ip6:2a01:b747::/32
+ip6:2620:0:1b00::/48
+# END ASN PREFIXES

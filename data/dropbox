@@ -17,3 +17,14 @@ dropboxusercontent.com
 getdropbox.com
 
 full:paper-attachments.s3.amazonaws.com
+
+# BEGIN ASN PREFIXES
+# Source: https://stat.ripe.net/data/ris-prefixes/data.json
+# ASNs: AS19679
+# RIS snapshot: 2026-07-17T00:00:00
+ip:162.125.0.0/16
+ip:108.160.160.0/20
+ip:45.58.64.0/20
+ip:185.45.8.0/22
+ip6:2620:100:6000::/40
+# END ASN PREFIXES

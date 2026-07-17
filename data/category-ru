@@ -1,8 +1,19 @@
-include:tld-ru
+# Russian TLD rules are kept directly here so no standalone geographic list is published.
+moscow
+ru
+su
+tatar
+xn--80adxhks
+xn--80asehdb
+xn--80aswg
+xn--c1avg
+xn--d1acj3b
+xn--p1acf
+xn--p1ai
 ru.com
 ru.net
 
-# - There is `[domain:]ru` in this list (from tld-ru), which matches all `*.ru` domains
+# - There is `[domain:]ru` in this list, which matches all `*.ru` domains
 # - Redundant subdomains (full/domain type without attr) will be trimed by main.go
 #   In this list, `*.ru` domains without attr are redundant for the program and will not contribute to `geosite:category-ru`
 # - You can still add `*.ru` domains here if you want

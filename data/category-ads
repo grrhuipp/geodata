@@ -9,6 +9,7 @@ include:apple @ads
 include:avito @ads
 include:baidu @ads
 include:bytedance @ads
+include:criteo @ads
 include:carrotquest @ads
 include:category-food-cn @ads
 include:cctv @ads
@@ -18,6 +19,8 @@ include:duolingo @ads
 include:gamersky @ads
 include:gog @ads
 include:google @ads
+include:id5 @ads
+include:integralads @ads
 include:hetzner @ads
 include:huawei @ads
 include:hunantv @ads
@@ -28,6 +31,8 @@ include:kuaishou @ads
 include:kurogames @ads
 include:le @ads
 include:mailru-group @ads
+include:klaviyo @ads
+include:loopme @ads
 include:meta @ads
 include:microsoft @ads
 include:mihoyo @ads
@@ -46,8 +51,14 @@ include:pixiv @ads
 include:qihoo360 @ads
 include:rostelecom @ads
 include:samsung @ads
+include:rubiconproject @ads
+include:smartadserver @ads
+include:stackadapt @ads
 include:sber @ads
 include:sina @ads
+include:thetradedesk @ads
+include:trafficjunky @ads
+include:unruly @ads
 include:snap @ads
 include:sohu @ads
 include:spotify @ads
