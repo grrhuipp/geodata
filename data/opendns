@@ -1,0 +1,14 @@
+# Source: https://www.opendns.com/setupguide/
+opendns.com
+opendns.net
+
+# BEGIN OFFICIAL CIDR
+# Source: https://www.opendns.com/setupguide/
+# Synced: 2026-07-17
+ip:208.67.222.222/32
+ip:208.67.220.220/32
+ip:208.67.222.123/32
+ip:208.67.220.123/32
+ip6:2620:119:35::35/128
+ip6:2620:119:53::53/128
+# END OFFICIAL CIDR

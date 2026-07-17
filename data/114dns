@@ -1,0 +1,14 @@
+# Source: https://www.114dns.com/
+114dns.com
+114dns.net
+
+# BEGIN OFFICIAL CIDR
+# Source: https://www.114dns.com/
+# Synced: 2026-07-17
+ip:114.114.114.114/32
+ip:114.114.115.115/32
+ip:114.114.114.119/32
+ip:114.114.115.119/32
+ip:114.114.114.110/32
+ip:114.114.115.110/32
+# END OFFICIAL CIDR

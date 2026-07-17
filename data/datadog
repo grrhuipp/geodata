@@ -1,0 +1,14 @@
+# Sources:
+# https://www.datadoghq.com/
+# https://docs.datadoghq.com/agent/configuration/network/
+# https://docs.datadoghq.com/real_user_monitoring/
+datadog.com
+datadoghq.com
+datadoghq.eu
+browser-intake-ddog-gov.com
+browser-intake-us2-ddog-gov.com
+browser-intake-us3-datadoghq.com
+browser-intake-us5-datadoghq.com
+browser-intake-ap1-datadoghq.com
+browser-intake-ap2-datadoghq.com
+browser-intake-uk1-datadoghq.com

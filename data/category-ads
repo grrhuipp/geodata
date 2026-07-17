@@ -74,6 +74,21 @@ include:sina @ads
 include:thetradedesk @ads
 include:trafficjunky @ads
 include:unruly @ads
+include:adform
+include:amobee
+include:bidswitch
+include:comscore
+include:doubleverify
+include:exoclick
+include:media-net
+include:onetag
+include:outbrain
+include:permutive
+include:primis
+include:quantcast
+include:sharethrough
+include:triplelift
+include:vungle
 include:snap @ads
 include:sohu @ads
 include:spotify @ads
