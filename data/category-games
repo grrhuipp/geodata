@@ -8,6 +8,7 @@ include:cowlevel
 include:herogame
 include:kurogames @-!cn
 include:mihoyo
+include:netmarble
 include:seasun
 include:tencent-games
 include:tiancity

@@ -144,16 +144,16 @@ include:youtube @-cn
 
 ### 当前构建快照
 
-2026-07-17 完成一次完整同步和汇总：
+2026-07-18 完成一次访问日志补漏、关联域名核实和重新汇总：
 
 ```text
-V2Fly products plus local groups: 1508
+V2Fly products plus local groups: 1540
 Category groups: 44
-Expanded rules: 59605
+Expanded rules: 59638
 Official IP/CIDR source rules: 38
 RIPEstat ASN origin prefix source rules: 25
-geodata.dat bytes: 1248520
-geodata.dat SHA-256: AB28189902D5ED0706ABEDDE09DF1D5829DA392AAA25D951D6A31921765DEF73
+geodata.dat bytes: 1248926
+geodata.dat SHA-256: 821C34019A9A2F7C7FBA9F0AF23DC0FC62261BC2B6E20235D0862C6E556E8CFD
 ```
 
 其中保留可信来源明确发布的 IPv4 `/32` 和 IPv6 `/128`，不因前缀长度而删除。后续同步后应更新本快照，便于新会话识别异常增减。

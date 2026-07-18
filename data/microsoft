@@ -374,3 +374,6 @@ full:volic.download.prss.microsoft.com @cn
 full:vscode.download.prss.microsoft.com @cn
 full:vz.download.prss.microsoft.com @cn
 full:windbg.download.prss.microsoft.com @cn
+# Microsoft Dev Tunnels
+# https://learn.microsoft.com/en-us/azure/developer/dev-tunnels/security
+devtunnels.ms

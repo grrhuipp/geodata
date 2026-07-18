@@ -41,6 +41,9 @@ kunlunwe.com
 mxhichina.com
 myalicdn.com
 
+# Root covers regional API, logging and OSS tenant endpoints observed in access logs.
+aliyuncs.com
+
 #865 #882 aliyuncs.com
 ap-southeast-1.aliyuncs.com @!cn
 cn-hangzhou.aliyuncs.com

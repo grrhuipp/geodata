@@ -14,7 +14,10 @@ include:alibaba @ads
 include:amazon @ads
 include:apple @ads
 include:avito @ads
+include:appsflyer
 include:baidu @ads
+include:braze
+include:branch
 include:bytedance @ads
 include:criteo @ads
 include:carrotquest @ads
@@ -48,6 +51,7 @@ include:le @ads
 include:mailru-group @ads
 include:klaviyo @ads
 include:loopme @ads
+include:mixpanel
 include:meta @ads
 include:microsoft @ads
 include:mihoyo @ads
@@ -84,6 +88,7 @@ include:media-net
 include:onetag
 include:outbrain
 include:permutive
+include:pangle
 include:primis
 include:quantcast
 include:sharethrough
@@ -188,9 +193,6 @@ pbmp.ali213.net
 # AppLovin
 applovin.com
 applvn.com
-
-# AppsFlyer
-appsflyersdk.com
 
 # Caixin
 # regexp:^pinggai\d\.caixin\.com$

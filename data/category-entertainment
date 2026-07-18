@@ -141,6 +141,7 @@ include:dlsite
 include:ficbook
 include:gimy
 include:goodreads
+include:giphy
 include:hamivideo
 include:hbo
 include:hulu
@@ -176,6 +177,7 @@ include:sling
 include:sonypictures
 include:soundcloud
 include:spotify
+include:suno
 include:subscene
 include:tidal
 include:tiktok
